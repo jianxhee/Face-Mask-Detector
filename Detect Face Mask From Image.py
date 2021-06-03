@@ -14,7 +14,7 @@ print("[INFO] loading face mask detector model...")
 maskNet = load_model("mask_detector.model")
 
 # Load the input image from disk, clone it, and grab the image spatial dimensions
-path = 'Lim Jian Xhee2.jpg'
+path = '[Enter image path here]'
 image = cv2.imread(path)
 orig = image.copy()
 (h, w) = image.shape[:2]
